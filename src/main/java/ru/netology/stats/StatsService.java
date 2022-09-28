@@ -15,7 +15,6 @@ public class StatsService {
         return sum(sales) / sales.length;
     }
 
-
     public int maxSalesMonNumber(long[] sales) {
         int maxSalesMonNumber = 0;
         for (int i = 0; i < sales.length; i++) {
